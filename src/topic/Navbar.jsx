@@ -10,22 +10,22 @@ const Navbar = () => {
             <li className='hover:text-white focus:border-b-4 hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/"}>All Topics</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/devops"}>DevOps</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/frameworks"}>Frameworks</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/languages"}>Languages</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/techniques"}>Techniques</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/testing"}>Testing</Link>
             </li>
-            <li className='hover:text-white hover:border-b-2 hover:border-white py-2 border-b-2 border-b-transparent'>
+            <li className='hover:text-white hover:border-b-4 hover:border-white py-2 border-b-4 border-b-transparent'>
                 <Link to={"/browse/tooling"}>Tooling</Link>
             </li>
         </ul>

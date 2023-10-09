@@ -11,7 +11,7 @@ import Tooling from './Tooling'
 
 const Topic = () => {
   return (
-    <div className='bg-indigo-800'>
+    <div className='bg-black'>
           <div className='container'>
        <div className='w-[700px] mx-auto text-white'>
             <h1 className='text-center text-[32px]'>Pick a topic. Any topic.</h1>
@@ -19,6 +19,7 @@ const Topic = () => {
         </div>
        </div>
         <Navbar/>
+        <AllTopics/>
         <Routes>
             <Route path='/browse/' element={<AllTopics/>}/>
             <Route path='/browse/devops' element={<DevOps/>}/>
